@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PayTogether</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<div class="container">
+  <h1>PayTogether</h1>
+
+  <label>Total Amount:</label>
+  <input type="number" id="totalAmount" placeholder="Enter total amount">
+
+  <label>Number of People:</label>
+  <input type="number" id="numPeople" placeholder="Enter number of people">
+  <button onclick="generateInputs()">Generate</button>
+
+  <div id="peopleInputs"></div>
+
+  <button onclick="calculateSplit()" class="calculate">Calculate</button>
+
+  <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
